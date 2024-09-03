@@ -1,0 +1,44 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-link {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-link:hover {
+    background-color: #ddd;
+  }
+  
+  .tab-link.active {
+    background-color: #ccc;
+  }
+  
+  .tab-link:active {
+    color: red; /* Add this line */
+  }
+  
+  .tab-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .tab-content img {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+  }
+  .tab-content img:hover {
+    transform: scale(1.1);
+  }
+  
+    

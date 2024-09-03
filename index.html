@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-link" onclick="openTab(event, 'nature')">Nature</button>
+        <button class="tab-link" onclick="openTab(event, 'animals')">Animals</button>
+        <button class="tab-link" onclick="openTab(event, 'architecture')">Architecture</button>
+    </div>
+
+    <div id="nature" class="tab-content">
+        <img src="nature1.jpg" alt="Nature 1">
+        <img src="nature2.jpg" alt="Nature 2">
+        <img src="nature3.jpg" alt="Nature 3">
+    </div>
+
+    <div id="animals" class="tab-content">
+        <img src="animal1.jpg" alt="Animal 1">
+        <img src="animal2.jpg" alt="Animal 2">
+        <img src="animal3.jpg" alt="Animal 3">
+    </div>
+
+    <div id="architecture" class="tab-content">
+        <img src="architecture1.jpg" alt="Architecture 1">
+        <img src="architecture2.jpg" alt="Architecture 2">
+        <img src="architecture3.jpg" alt="Architecture 3">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
